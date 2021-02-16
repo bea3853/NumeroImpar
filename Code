@@ -1,0 +1,13 @@
+algoritmo "EscrevaOImpar"
+var
+n: real
+inicio
+
+escreval ("numero?")
+leia(n)
+
+se (n mod 2) = 1 entao
+
+escreval("impar" )
+fimse
+fimalgoritmo
